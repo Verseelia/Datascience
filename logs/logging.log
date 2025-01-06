@@ -1,1 +1,697 @@
 [2024-12-21 19:26:42,128:INFO:main:Welcome to our custom logging data science]
+[2024-12-24 15:47:55,249:INFO:common:yaml file: config\config.yaml loaded successfully]
+[2024-12-24 15:47:55,252:INFO:common:yaml file: params.yaml loaded successfully]
+[2024-12-24 15:49:01,362:INFO:common:yaml file: config\config.yaml loaded successfully]
+[2024-12-24 15:49:01,373:INFO:common:yaml file: params.yaml loaded successfully]
+[2024-12-24 15:49:01,383:INFO:common:yaml file: schema.yaml loaded successfully]
+[2024-12-24 15:49:01,386:INFO:common:created directory at: artifacts]
+[2024-12-24 15:49:01,387:INFO:common:created directory at: artifacts/data_ingestion]
+[2024-12-24 15:49:15,418:INFO:common:yaml file: config\config.yaml loaded successfully]
+[2024-12-24 15:49:15,421:INFO:common:yaml file: params.yaml loaded successfully]
+[2024-12-24 15:49:15,423:INFO:common:yaml file: schema.yaml loaded successfully]
+[2024-12-24 15:49:15,424:INFO:common:created directory at: artifacts]
+[2024-12-24 15:49:15,426:INFO:common:created directory at: artifacts/data_ingestion]
+[2024-12-24 15:49:17,095:INFO:2442115346:artifacts/data_ingestion/data.zip download! with following info: 
+Connection: close
+Content-Length: 23329
+Cache-Control: max-age=300
+Content-Security-Policy: default-src 'none'; style-src 'unsafe-inline'; sandbox
+Content-Type: application/zip
+ETag: "c69888a4ae59bc5a893392785a938ccd4937981c06ba8a9d6a21aa52b4ab5b6e"
+Strict-Transport-Security: max-age=31536000
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-XSS-Protection: 1; mode=block
+X-GitHub-Request-Id: 2472:08D8:1A79A0:245466:676A8A22
+Accept-Ranges: bytes
+Date: Tue, 24 Dec 2024 10:17:07 GMT
+Via: 1.1 varnish
+X-Served-By: cache-maa10243-MAA
+X-Cache: MISS
+X-Cache-Hits: 0
+X-Timer: S1735035427.251730,VS0,VE316
+Vary: Authorization,Accept-Encoding,Origin
+Access-Control-Allow-Origin: *
+Cross-Origin-Resource-Policy: cross-origin
+X-Fastly-Request-ID: 2cb13183fa9aa884f5faa32fb40ee38da9e6b12d
+Expires: Tue, 24 Dec 2024 10:22:07 GMT
+Source-Age: 0
+
+]
+[2024-12-24 15:51:43,306:INFO:common:yaml file: config\config.yaml loaded successfully]
+[2024-12-24 15:51:43,306:INFO:common:yaml file: params.yaml loaded successfully]
+[2024-12-24 15:51:43,310:INFO:common:yaml file: schema.yaml loaded successfully]
+[2024-12-24 15:51:43,311:INFO:common:created directory at: artifacts]
+[2024-12-24 15:51:43,312:INFO:common:created directory at: artifacts/data_ingestion]
+[2024-12-24 15:51:44,427:INFO:3067880862:artifacts/data_ingestion/data.zip download! with following info: 
+Connection: close
+Content-Length: 23329
+Cache-Control: max-age=300
+Content-Security-Policy: default-src 'none'; style-src 'unsafe-inline'; sandbox
+Content-Type: application/zip
+ETag: "c69888a4ae59bc5a893392785a938ccd4937981c06ba8a9d6a21aa52b4ab5b6e"
+Strict-Transport-Security: max-age=31536000
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-XSS-Protection: 1; mode=block
+X-GitHub-Request-Id: 2472:08D8:1A79A0:245466:676A8A22
+Accept-Ranges: bytes
+Date: Tue, 24 Dec 2024 10:19:34 GMT
+Via: 1.1 varnish
+X-Served-By: cache-maa10228-MAA
+X-Cache: HIT
+X-Cache-Hits: 0
+X-Timer: S1735035575.997738,VS0,VE1
+Vary: Authorization,Accept-Encoding,Origin
+Access-Control-Allow-Origin: *
+Cross-Origin-Resource-Policy: cross-origin
+X-Fastly-Request-ID: eed8949b454c7da02a7afd5d65e44bb9252e8627
+Expires: Tue, 24 Dec 2024 10:24:34 GMT
+Source-Age: 147
+
+]
+[2024-12-26 13:36:08,709:INFO:main:>>>>>stage Data Ingestion Stage started <<<<<]
+[2024-12-26 13:36:08,709:INFO:common:yaml file: config\config.yaml loaded successfully]
+[2024-12-26 13:36:08,718:INFO:common:yaml file: params.yaml loaded successfully]
+[2024-12-26 13:36:08,718:INFO:common:yaml file: schema.yaml loaded successfully]
+[2024-12-26 13:36:08,725:INFO:common:created directory at: artifacts]
+[2024-12-26 13:36:08,726:INFO:common:created directory at: artifacts/data_ingestion]
+[2024-12-26 13:36:08,726:INFO:data_ingestion:File aleady exists]
+[2024-12-26 13:36:08,766:INFO:main:>>>>>stage Data Ingestion Stage completed <<<<<]
+[2024-12-26 14:58:36,745:INFO:common:yaml file: config\config.yaml loaded successfully]
+[2024-12-26 14:58:36,753:INFO:common:yaml file: params.yaml loaded successfully]
+[2024-12-26 14:58:36,770:INFO:common:yaml file: schema.yaml loaded successfully]
+[2024-12-26 14:58:36,771:INFO:common:created directory at: artifacts]
+[2024-12-26 15:04:02,646:INFO:common:yaml file: config\config.yaml loaded successfully]
+[2024-12-26 15:04:02,648:INFO:common:yaml file: params.yaml loaded successfully]
+[2024-12-26 15:04:02,648:INFO:common:yaml file: schema.yaml loaded successfully]
+[2024-12-26 15:04:02,655:INFO:common:created directory at: artifacts]
+[2024-12-26 15:04:02,658:INFO:common:created directory at: artifacts/data_validation]
+[2024-12-26 15:31:02,460:INFO:main:>>>>>stage Data Ingestion Stage started <<<<<]
+[2024-12-26 15:31:02,460:INFO:common:yaml file: config\config.yaml loaded successfully]
+[2024-12-26 15:31:02,460:INFO:common:yaml file: params.yaml loaded successfully]
+[2024-12-26 15:31:02,460:INFO:common:yaml file: schema.yaml loaded successfully]
+[2024-12-26 15:31:02,460:INFO:common:created directory at: artifacts]
+[2024-12-26 15:31:02,469:INFO:common:created directory at: artifacts/data_ingestion]
+[2024-12-26 15:31:02,469:INFO:data_ingestion:File aleady exists]
+[2024-12-26 15:31:02,474:INFO:main:>>>>>stage Data Ingestion Stage completed <<<<<]
+[2024-12-26 15:31:02,477:INFO:main:>>>>>stage Data Validation Stage started <<<<<]
+[2024-12-26 15:31:02,477:ERROR:main:'DataIngestionTrainingPipeline' object has no attribute 'initiate_data_validation']
+Traceback (most recent call last):
+  File "C:\End\Datascience\main.py", line 21, in <module>
+    data_ingestion.initiate_data_validation()
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'DataIngestionTrainingPipeline' object has no attribute 'initiate_data_validation'
+[2024-12-26 15:31:36,892:INFO:main:>>>>>stage Data Ingestion Stage started <<<<<]
+[2024-12-26 15:31:36,894:INFO:common:yaml file: config\config.yaml loaded successfully]
+[2024-12-26 15:31:36,894:INFO:common:yaml file: params.yaml loaded successfully]
+[2024-12-26 15:31:36,894:INFO:common:yaml file: schema.yaml loaded successfully]
+[2024-12-26 15:31:36,894:INFO:common:created directory at: artifacts]
+[2024-12-26 15:31:36,894:INFO:common:created directory at: artifacts/data_ingestion]
+[2024-12-26 15:31:36,894:INFO:data_ingestion:File aleady exists]
+[2024-12-26 15:31:36,906:INFO:main:>>>>>stage Data Ingestion Stage completed <<<<<]
+[2024-12-26 15:31:36,906:INFO:main:>>>>>stage Data Validation Stage started <<<<<]
+[2024-12-26 15:31:36,907:INFO:common:yaml file: config\config.yaml loaded successfully]
+[2024-12-26 15:31:36,907:INFO:common:yaml file: params.yaml loaded successfully]
+[2024-12-26 15:31:36,912:INFO:common:yaml file: schema.yaml loaded successfully]
+[2024-12-26 15:31:36,912:INFO:common:created directory at: artifacts]
+[2024-12-26 15:31:36,914:INFO:common:created directory at: artifacts/data_validation]
+[2024-12-26 15:31:36,942:INFO:main:>>>>>stage Data Validation Stage completed <<<<<]
+[2024-12-26 16:17:32,968:INFO:common:yaml file: config\config.yaml loaded successfully]
+[2024-12-26 16:17:32,977:INFO:common:yaml file: params.yaml loaded successfully]
+[2024-12-26 16:17:32,984:INFO:common:yaml file: schema.yaml loaded successfully]
+[2024-12-26 16:17:32,988:INFO:common:created directory at: artifacts]
+[2024-12-26 16:19:26,879:INFO:common:yaml file: config\config.yaml loaded successfully]
+[2024-12-26 16:19:26,879:INFO:common:yaml file: params.yaml loaded successfully]
+[2024-12-26 16:19:26,886:INFO:common:yaml file: schema.yaml loaded successfully]
+[2024-12-26 16:19:26,886:INFO:common:created directory at: artifacts]
+[2024-12-26 16:19:33,661:INFO:common:yaml file: config\config.yaml loaded successfully]
+[2024-12-26 16:19:33,661:INFO:common:yaml file: params.yaml loaded successfully]
+[2024-12-26 16:19:33,670:INFO:common:yaml file: schema.yaml loaded successfully]
+[2024-12-26 16:19:33,670:INFO:common:created directory at: artifacts]
+[2024-12-26 16:19:33,670:INFO:common:created directory at: artifacts/data_transformation]
+[2024-12-26 16:19:33,750:INFO:3058377379:Splitted data into training and testing]
+[2024-12-26 16:19:33,758:INFO:3058377379:(1199, 12)]
+[2024-12-26 16:19:33,758:INFO:3058377379:(400, 12)]
+[2024-12-26 16:42:14,333:INFO:main:>>>>>stage Data Ingestion Stage started <<<<<]
+[2024-12-26 16:42:14,335:INFO:common:yaml file: config\config.yaml loaded successfully]
+[2024-12-26 16:42:14,335:INFO:common:yaml file: params.yaml loaded successfully]
+[2024-12-26 16:42:14,342:INFO:common:yaml file: schema.yaml loaded successfully]
+[2024-12-26 16:42:14,342:INFO:common:created directory at: artifacts]
+[2024-12-26 16:42:14,345:INFO:common:created directory at: artifacts/data_ingestion]
+[2024-12-26 16:42:14,345:INFO:data_ingestion:File aleady exists]
+[2024-12-26 16:42:14,355:INFO:main:>>>>>stage Data Ingestion Stage completed <<<<<]
+[2024-12-26 16:42:14,355:INFO:main:>>>>>stage Data Validation Stage started <<<<<]
+[2024-12-26 16:42:14,359:INFO:common:yaml file: config\config.yaml loaded successfully]
+[2024-12-26 16:42:14,359:INFO:common:yaml file: params.yaml loaded successfully]
+[2024-12-26 16:42:14,369:INFO:common:yaml file: schema.yaml loaded successfully]
+[2024-12-26 16:42:14,369:INFO:common:created directory at: artifacts]
+[2024-12-26 16:42:14,369:INFO:common:created directory at: artifacts/data_validation]
+[2024-12-26 16:42:14,408:INFO:main:>>>>>stage Data Validation Stage completed <<<<<]
+[2024-12-26 16:42:14,408:INFO:main:>>>>>stage Data Transformation Stage started <<<<<]
+[2024-12-26 16:42:14,408:INFO:common:yaml file: config\config.yaml loaded successfully]
+[2024-12-26 16:42:14,416:INFO:common:yaml file: params.yaml loaded successfully]
+[2024-12-26 16:42:14,416:INFO:common:yaml file: schema.yaml loaded successfully]
+[2024-12-26 16:42:14,416:INFO:common:created directory at: artifacts]
+[2024-12-26 16:42:14,416:INFO:common:created directory at: artifacts/data_ingestion]
+[2024-12-26 16:42:14,416:ERROR:main:'DataIngestionConfig' object has no attribute 'data_path']
+Traceback (most recent call last):
+  File "C:\End\Datascience\main.py", line 32, in <module>
+    obj.initiate_data_transformation()
+  File "C:\End\Datascience\src\datascience\pipeline\data_transformation.py", line 14, in initiate_data_transformation
+    data_transformation.train_test_split()
+  File "C:\End\Datascience\src\datascience\components\data_transformation.py", line 15, in train_test_split
+    data=pd.read_csv(self.config.data_path)
+                     ^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'DataIngestionConfig' object has no attribute 'data_path'
+[2024-12-26 16:44:33,853:INFO:main:>>>>>stage Data Ingestion Stage started <<<<<]
+[2024-12-26 16:44:33,860:INFO:common:yaml file: config\config.yaml loaded successfully]
+[2024-12-26 16:44:33,860:INFO:common:yaml file: params.yaml loaded successfully]
+[2024-12-26 16:44:33,860:INFO:common:yaml file: schema.yaml loaded successfully]
+[2024-12-26 16:44:33,860:INFO:common:created directory at: artifacts]
+[2024-12-26 16:44:33,860:INFO:common:created directory at: artifacts/data_ingestion]
+[2024-12-26 16:44:33,860:INFO:data_ingestion:File aleady exists]
+[2024-12-26 16:44:33,869:INFO:main:>>>>>stage Data Ingestion Stage completed <<<<<]
+[2024-12-26 16:44:33,869:INFO:main:>>>>>stage Data Validation Stage started <<<<<]
+[2024-12-26 16:44:33,875:INFO:common:yaml file: config\config.yaml loaded successfully]
+[2024-12-26 16:44:33,875:INFO:common:yaml file: params.yaml loaded successfully]
+[2024-12-26 16:44:33,878:INFO:common:yaml file: schema.yaml loaded successfully]
+[2024-12-26 16:44:33,878:INFO:common:created directory at: artifacts]
+[2024-12-26 16:44:33,885:INFO:common:created directory at: artifacts/data_validation]
+[2024-12-26 16:44:33,926:INFO:main:>>>>>stage Data Validation Stage completed <<<<<]
+[2024-12-26 16:44:33,926:INFO:main:>>>>>stage Data Transformation Stage started <<<<<]
+[2024-12-26 16:44:33,926:INFO:common:yaml file: config\config.yaml loaded successfully]
+[2024-12-26 16:44:33,934:INFO:common:yaml file: params.yaml loaded successfully]
+[2024-12-26 16:44:33,934:INFO:common:yaml file: schema.yaml loaded successfully]
+[2024-12-26 16:44:33,934:INFO:common:created directory at: artifacts]
+[2024-12-26 16:44:33,934:INFO:common:created directory at: artifacts/data_ingestion]
+[2024-12-26 16:44:33,934:ERROR:main:'DataIngestionConfig' object has no attribute 'data_path']
+Traceback (most recent call last):
+  File "C:\End\Datascience\main.py", line 32, in <module>
+    Data_transformation.initiate_data_transformation()
+  File "C:\End\Datascience\src\datascience\pipeline\data_transformation.py", line 14, in initiate_data_transformation
+    data_transformation.train_test_split()
+  File "C:\End\Datascience\src\datascience\components\data_transformation.py", line 15, in train_test_split
+    data=pd.read_csv(self.config.data_path)
+                     ^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'DataIngestionConfig' object has no attribute 'data_path'
+[2024-12-26 16:46:47,514:INFO:main:>>>>>stage Data Ingestion Stage started <<<<<]
+[2024-12-26 16:46:47,514:INFO:common:yaml file: config\config.yaml loaded successfully]
+[2024-12-26 16:46:47,514:INFO:common:yaml file: params.yaml loaded successfully]
+[2024-12-26 16:46:47,514:INFO:common:yaml file: schema.yaml loaded successfully]
+[2024-12-26 16:46:47,521:INFO:common:created directory at: artifacts]
+[2024-12-26 16:46:47,522:INFO:common:created directory at: artifacts/data_ingestion]
+[2024-12-26 16:46:47,522:INFO:data_ingestion:File aleady exists]
+[2024-12-26 16:46:47,529:INFO:main:>>>>>stage Data Ingestion Stage completed <<<<<]
+[2024-12-26 16:46:47,530:INFO:main:>>>>>stage Data Validation Stage started <<<<<]
+[2024-12-26 16:46:47,530:INFO:common:yaml file: config\config.yaml loaded successfully]
+[2024-12-26 16:46:47,530:INFO:common:yaml file: params.yaml loaded successfully]
+[2024-12-26 16:46:47,530:INFO:common:yaml file: schema.yaml loaded successfully]
+[2024-12-26 16:46:47,530:INFO:common:created directory at: artifacts]
+[2024-12-26 16:46:47,537:INFO:common:created directory at: artifacts/data_validation]
+[2024-12-26 16:46:47,571:INFO:main:>>>>>stage Data Validation Stage completed <<<<<]
+[2024-12-26 16:46:47,571:INFO:main:>>>>>stage Data Transformation Stage started <<<<<]
+[2024-12-26 16:46:47,579:INFO:common:yaml file: config\config.yaml loaded successfully]
+[2024-12-26 16:46:47,579:INFO:common:yaml file: params.yaml loaded successfully]
+[2024-12-26 16:46:47,579:INFO:common:yaml file: schema.yaml loaded successfully]
+[2024-12-26 16:46:47,579:INFO:common:created directory at: artifacts]
+[2024-12-26 16:46:47,587:INFO:common:created directory at: artifacts/data_ingestion]
+[2024-12-26 16:46:47,587:ERROR:main:'DataIngestionConfig' object is not callable]
+Traceback (most recent call last):
+  File "C:\End\Datascience\main.py", line 32, in <module>
+    Data_transformation.initiate_data_transformation()
+  File "C:\End\Datascience\src\datascience\pipeline\data_transformation.py", line 13, in initiate_data_transformation
+    data_transformation=DataTransformation(config=data_transformation_config)
+                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\End\Datascience\src\datascience\components\data_transformation.py", line 13, in __init__
+    self.config=config()
+                ^^^^^^^^
+TypeError: 'DataIngestionConfig' object is not callable
+[2024-12-26 16:46:56,264:INFO:main:>>>>>stage Data Ingestion Stage started <<<<<]
+[2024-12-26 16:46:56,264:INFO:common:yaml file: config\config.yaml loaded successfully]
+[2024-12-26 16:46:56,264:INFO:common:yaml file: params.yaml loaded successfully]
+[2024-12-26 16:46:56,272:INFO:common:yaml file: schema.yaml loaded successfully]
+[2024-12-26 16:46:56,272:INFO:common:created directory at: artifacts]
+[2024-12-26 16:46:56,272:INFO:common:created directory at: artifacts/data_ingestion]
+[2024-12-26 16:46:56,272:INFO:data_ingestion:File aleady exists]
+[2024-12-26 16:46:56,276:INFO:main:>>>>>stage Data Ingestion Stage completed <<<<<]
+[2024-12-26 16:46:56,280:INFO:main:>>>>>stage Data Validation Stage started <<<<<]
+[2024-12-26 16:46:56,280:INFO:common:yaml file: config\config.yaml loaded successfully]
+[2024-12-26 16:46:56,280:INFO:common:yaml file: params.yaml loaded successfully]
+[2024-12-26 16:46:56,280:INFO:common:yaml file: schema.yaml loaded successfully]
+[2024-12-26 16:46:56,288:INFO:common:created directory at: artifacts]
+[2024-12-26 16:46:56,288:INFO:common:created directory at: artifacts/data_validation]
+[2024-12-26 16:46:56,321:INFO:main:>>>>>stage Data Validation Stage completed <<<<<]
+[2024-12-26 16:46:56,321:INFO:main:>>>>>stage Data Transformation Stage started <<<<<]
+[2024-12-26 16:46:56,321:INFO:common:yaml file: config\config.yaml loaded successfully]
+[2024-12-26 16:46:56,321:INFO:common:yaml file: params.yaml loaded successfully]
+[2024-12-26 16:46:56,329:INFO:common:yaml file: schema.yaml loaded successfully]
+[2024-12-26 16:46:56,331:INFO:common:created directory at: artifacts]
+[2024-12-26 16:46:56,331:INFO:common:created directory at: artifacts/data_ingestion]
+[2024-12-26 16:46:56,331:ERROR:main:'DataIngestionConfig' object has no attribute 'data_path']
+Traceback (most recent call last):
+  File "C:\End\Datascience\main.py", line 32, in <module>
+    Data_transformation.initiate_data_transformation()
+  File "C:\End\Datascience\src\datascience\pipeline\data_transformation.py", line 14, in initiate_data_transformation
+    data_transformation.train_test_split()
+  File "C:\End\Datascience\src\datascience\components\data_transformation.py", line 15, in train_test_split
+    data=pd.read_csv(self.config.data_path)
+                     ^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'DataIngestionConfig' object has no attribute 'data_path'
+[2024-12-26 16:48:56,941:INFO:main:>>>>>stage Data Ingestion Stage started <<<<<]
+[2024-12-26 16:48:56,941:INFO:common:yaml file: config\config.yaml loaded successfully]
+[2024-12-26 16:48:56,941:INFO:common:yaml file: params.yaml loaded successfully]
+[2024-12-26 16:48:56,941:INFO:common:yaml file: schema.yaml loaded successfully]
+[2024-12-26 16:48:56,941:INFO:common:created directory at: artifacts]
+[2024-12-26 16:48:56,949:INFO:common:created directory at: artifacts/data_ingestion]
+[2024-12-26 16:48:56,949:INFO:data_ingestion:File aleady exists]
+[2024-12-26 16:48:56,949:INFO:main:>>>>>stage Data Ingestion Stage completed <<<<<]
+[2024-12-26 16:48:56,949:INFO:main:>>>>>stage Data Validation Stage started <<<<<]
+[2024-12-26 16:48:56,959:INFO:common:yaml file: config\config.yaml loaded successfully]
+[2024-12-26 16:48:56,959:INFO:common:yaml file: params.yaml loaded successfully]
+[2024-12-26 16:48:56,966:INFO:common:yaml file: schema.yaml loaded successfully]
+[2024-12-26 16:48:56,966:INFO:common:created directory at: artifacts]
+[2024-12-26 16:48:56,966:INFO:common:created directory at: artifacts/data_validation]
+[2024-12-26 16:48:57,006:INFO:main:>>>>>stage Data Validation Stage completed <<<<<]
+[2024-12-26 16:48:57,006:INFO:main:>>>>>stage Data Transformation Stage started <<<<<]
+[2024-12-26 16:48:57,006:INFO:common:yaml file: config\config.yaml loaded successfully]
+[2024-12-26 16:48:57,006:INFO:common:yaml file: params.yaml loaded successfully]
+[2024-12-26 16:48:57,014:INFO:common:yaml file: schema.yaml loaded successfully]
+[2024-12-26 16:48:57,014:INFO:common:created directory at: artifacts]
+[2024-12-26 16:48:57,014:INFO:common:created directory at: artifacts/data_ingestion]
+[2024-12-26 16:48:57,014:ERROR:main:'DataIngestionConfig' object has no attribute 'data_path']
+Traceback (most recent call last):
+  File "C:\End\Datascience\main.py", line 32, in <module>
+    Data_transformation.initiate_data_transformation()
+  File "C:\End\Datascience\src\datascience\pipeline\data_transformation.py", line 14, in initiate_data_transformation
+    data_transformation.train_test_split()
+  File "C:\End\Datascience\src\datascience\components\data_transformation.py", line 15, in train_test_split
+    data=pd.read_csv(self.config.data_path)
+                     ^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'DataIngestionConfig' object has no attribute 'data_path'
+[2024-12-26 16:54:48,273:INFO:main:>>>>>stage Data Ingestion Stage started <<<<<]
+[2024-12-26 16:54:48,273:INFO:common:yaml file: config\config.yaml loaded successfully]
+[2024-12-26 16:54:48,273:INFO:common:yaml file: params.yaml loaded successfully]
+[2024-12-26 16:54:48,282:INFO:common:yaml file: schema.yaml loaded successfully]
+[2024-12-26 16:54:48,282:INFO:common:created directory at: artifacts]
+[2024-12-26 16:54:48,282:INFO:common:created directory at: artifacts/data_ingestion]
+[2024-12-26 16:54:48,282:INFO:data_ingestion:File aleady exists]
+[2024-12-26 16:54:48,290:INFO:main:>>>>>stage Data Ingestion Stage completed <<<<<]
+[2024-12-26 16:54:48,290:INFO:main:>>>>>stage Data Validation Stage started <<<<<]
+[2024-12-26 16:54:48,290:INFO:common:yaml file: config\config.yaml loaded successfully]
+[2024-12-26 16:54:48,290:INFO:common:yaml file: params.yaml loaded successfully]
+[2024-12-26 16:54:48,298:INFO:common:yaml file: schema.yaml loaded successfully]
+[2024-12-26 16:54:48,298:INFO:common:created directory at: artifacts]
+[2024-12-26 16:54:48,298:INFO:common:created directory at: artifacts/data_validation]
+[2024-12-26 16:54:48,332:INFO:main:>>>>>stage Data Validation Stage completed <<<<<]
+[2024-12-26 16:54:48,332:INFO:main:>>>>>stage Data Transformation Stage started <<<<<]
+[2024-12-26 16:54:48,332:ERROR:main:name 'DataTransformationPipeline' is not defined]
+Traceback (most recent call last):
+  File "C:\End\Datascience\main.py", line 31, in <module>
+    Data_transformation=DataTransformationPipeline()
+                        ^^^^^^^^^^^^^^^^^^^^^^^^^^
+NameError: name 'DataTransformationPipeline' is not defined
+[2024-12-26 16:55:30,178:INFO:main:>>>>>stage Data Ingestion Stage started <<<<<]
+[2024-12-26 16:55:30,188:INFO:common:yaml file: config\config.yaml loaded successfully]
+[2024-12-26 16:55:30,188:INFO:common:yaml file: params.yaml loaded successfully]
+[2024-12-26 16:55:30,188:INFO:common:yaml file: schema.yaml loaded successfully]
+[2024-12-26 16:55:30,188:INFO:common:created directory at: artifacts]
+[2024-12-26 16:55:30,188:INFO:common:created directory at: artifacts/data_ingestion]
+[2024-12-26 16:55:30,188:INFO:data_ingestion:File aleady exists]
+[2024-12-26 16:55:30,197:INFO:main:>>>>>stage Data Ingestion Stage completed <<<<<]
+[2024-12-26 16:55:30,201:INFO:main:>>>>>stage Data Validation Stage started <<<<<]
+[2024-12-26 16:55:30,204:INFO:common:yaml file: config\config.yaml loaded successfully]
+[2024-12-26 16:55:30,204:INFO:common:yaml file: params.yaml loaded successfully]
+[2024-12-26 16:55:30,204:INFO:common:yaml file: schema.yaml loaded successfully]
+[2024-12-26 16:55:30,204:INFO:common:created directory at: artifacts]
+[2024-12-26 16:55:30,204:INFO:common:created directory at: artifacts/data_validation]
+[2024-12-26 16:55:30,244:INFO:main:>>>>>stage Data Validation Stage completed <<<<<]
+[2024-12-26 16:55:30,244:INFO:main:>>>>>stage Data Transformation Stage started <<<<<]
+[2024-12-26 16:55:30,244:ERROR:main:DataTransformationTrainingPipeline.initiate_data_transformation() missing 1 required positional argument: 'self']
+Traceback (most recent call last):
+  File "C:\End\Datascience\main.py", line 32, in <module>
+    Data_transformation.initiate_data_transformation()
+TypeError: DataTransformationTrainingPipeline.initiate_data_transformation() missing 1 required positional argument: 'self'
+[2024-12-26 16:56:12,317:INFO:main:>>>>>stage Data Ingestion Stage started <<<<<]
+[2024-12-26 16:56:12,325:INFO:common:yaml file: config\config.yaml loaded successfully]
+[2024-12-26 16:56:12,325:INFO:common:yaml file: params.yaml loaded successfully]
+[2024-12-26 16:56:12,325:INFO:common:yaml file: schema.yaml loaded successfully]
+[2024-12-26 16:56:12,334:INFO:common:created directory at: artifacts]
+[2024-12-26 16:56:12,334:INFO:common:created directory at: artifacts/data_ingestion]
+[2024-12-26 16:56:12,334:INFO:data_ingestion:File aleady exists]
+[2024-12-26 16:56:12,341:INFO:main:>>>>>stage Data Ingestion Stage completed <<<<<]
+[2024-12-26 16:56:12,341:INFO:main:>>>>>stage Data Validation Stage started <<<<<]
+[2024-12-26 16:56:12,341:INFO:common:yaml file: config\config.yaml loaded successfully]
+[2024-12-26 16:56:12,341:INFO:common:yaml file: params.yaml loaded successfully]
+[2024-12-26 16:56:12,341:INFO:common:yaml file: schema.yaml loaded successfully]
+[2024-12-26 16:56:12,341:INFO:common:created directory at: artifacts]
+[2024-12-26 16:56:12,341:INFO:common:created directory at: artifacts/data_validation]
+[2024-12-26 16:56:12,383:INFO:main:>>>>>stage Data Validation Stage completed <<<<<]
+[2024-12-26 16:56:12,383:INFO:main:>>>>>stage Data Transformation Stage started <<<<<]
+[2024-12-26 16:56:12,383:ERROR:main:DataTransformationTrainingPipeline.initiate_data_transformation() missing 1 required positional argument: 'self']
+Traceback (most recent call last):
+  File "C:\End\Datascience\main.py", line 32, in <module>
+    data_transformation.initiate_data_transformation()
+TypeError: DataTransformationTrainingPipeline.initiate_data_transformation() missing 1 required positional argument: 'self'
+[2024-12-26 16:56:36,184:INFO:main:>>>>>stage Data Ingestion Stage started <<<<<]
+[2024-12-26 16:56:36,184:INFO:common:yaml file: config\config.yaml loaded successfully]
+[2024-12-26 16:56:36,184:INFO:common:yaml file: params.yaml loaded successfully]
+[2024-12-26 16:56:36,190:INFO:common:yaml file: schema.yaml loaded successfully]
+[2024-12-26 16:56:36,190:INFO:common:created directory at: artifacts]
+[2024-12-26 16:56:36,190:INFO:common:created directory at: artifacts/data_ingestion]
+[2024-12-26 16:56:36,192:INFO:data_ingestion:File aleady exists]
+[2024-12-26 16:56:36,195:INFO:main:>>>>>stage Data Ingestion Stage completed <<<<<]
+[2024-12-26 16:56:36,195:INFO:main:>>>>>stage Data Validation Stage started <<<<<]
+[2024-12-26 16:56:36,201:INFO:common:yaml file: config\config.yaml loaded successfully]
+[2024-12-26 16:56:36,203:INFO:common:yaml file: params.yaml loaded successfully]
+[2024-12-26 16:56:36,203:INFO:common:yaml file: schema.yaml loaded successfully]
+[2024-12-26 16:56:36,203:INFO:common:created directory at: artifacts]
+[2024-12-26 16:56:36,203:INFO:common:created directory at: artifacts/data_validation]
+[2024-12-26 16:56:36,243:INFO:main:>>>>>stage Data Validation Stage completed <<<<<]
+[2024-12-26 16:56:36,243:INFO:main:>>>>>stage Data Transformation Stage started <<<<<]
+[2024-12-26 16:56:36,267:INFO:common:yaml file: config\config.yaml loaded successfully]
+[2024-12-26 16:56:36,268:INFO:common:yaml file: params.yaml loaded successfully]
+[2024-12-26 16:56:36,268:INFO:common:yaml file: schema.yaml loaded successfully]
+[2024-12-26 16:56:36,268:INFO:common:created directory at: artifacts]
+[2024-12-26 16:56:36,268:INFO:common:created directory at: artifacts/data_transformation]
+[2024-12-26 16:56:36,293:INFO:data_transformation:Splited data into training and test sets]
+[2024-12-26 16:56:36,293:INFO:data_transformation:(1199, 12)]
+[2024-12-26 16:56:36,293:INFO:data_transformation:(400, 12)]
+[2024-12-26 16:56:36,293:INFO:main:>>>>>stage Data Transformation Stage completed <<<<<]
+[2024-12-28 11:39:38,414:INFO:common:yaml file: config\config.yaml loaded successfully]
+[2024-12-28 11:39:38,435:INFO:common:yaml file: params.yaml loaded successfully]
+[2024-12-28 11:39:38,443:INFO:common:yaml file: schema.yaml loaded successfully]
+[2024-12-28 11:39:38,453:INFO:common:created directory at: artifacts]
+[2024-12-28 11:39:38,453:INFO:common:created directory at: artifacts/model_trainer]
+[2024-12-28 11:39:48,285:INFO:common:yaml file: config\config.yaml loaded successfully]
+[2024-12-28 11:39:48,285:INFO:common:yaml file: params.yaml loaded successfully]
+[2024-12-28 11:39:48,294:INFO:common:yaml file: schema.yaml loaded successfully]
+[2024-12-28 11:39:48,294:INFO:common:created directory at: artifacts]
+[2024-12-28 11:39:48,294:INFO:common:created directory at: artifacts/model_trainer]
+[2024-12-28 11:54:59,261:INFO:main:>>>>>stage Data Ingestion Stage started <<<<<]
+[2024-12-28 11:54:59,291:INFO:common:yaml file: config\config.yaml loaded successfully]
+[2024-12-28 11:54:59,325:INFO:common:yaml file: params.yaml loaded successfully]
+[2024-12-28 11:54:59,328:INFO:common:yaml file: schema.yaml loaded successfully]
+[2024-12-28 11:54:59,329:INFO:common:created directory at: artifacts]
+[2024-12-28 11:54:59,329:INFO:common:created directory at: artifacts/data_ingestion]
+[2024-12-28 11:54:59,329:INFO:data_ingestion:File aleady exists]
+[2024-12-28 11:54:59,376:INFO:main:>>>>>stage Data Ingestion Stage completed <<<<<]
+[2024-12-28 11:54:59,376:INFO:main:>>>>>stage Data Validation Stage started <<<<<]
+[2024-12-28 11:54:59,378:INFO:common:yaml file: config\config.yaml loaded successfully]
+[2024-12-28 11:54:59,378:INFO:common:yaml file: params.yaml loaded successfully]
+[2024-12-28 11:54:59,378:INFO:common:yaml file: schema.yaml loaded successfully]
+[2024-12-28 11:54:59,378:INFO:common:created directory at: artifacts]
+[2024-12-28 11:54:59,378:INFO:common:created directory at: artifacts/data_validation]
+[2024-12-28 11:54:59,410:INFO:main:>>>>>stage Data Validation Stage completed <<<<<]
+[2024-12-28 11:54:59,410:INFO:main:>>>>>stage Data Transformation Stage started <<<<<]
+[2024-12-28 11:54:59,428:INFO:common:yaml file: config\config.yaml loaded successfully]
+[2024-12-28 11:54:59,428:INFO:common:yaml file: params.yaml loaded successfully]
+[2024-12-28 11:54:59,428:INFO:common:yaml file: schema.yaml loaded successfully]
+[2024-12-28 11:54:59,428:INFO:common:created directory at: artifacts]
+[2024-12-28 11:54:59,436:INFO:common:created directory at: artifacts/data_transformation]
+[2024-12-28 11:54:59,485:INFO:data_transformation:Splited data into training and test sets]
+[2024-12-28 11:54:59,485:INFO:data_transformation:(1199, 12)]
+[2024-12-28 11:54:59,493:INFO:data_transformation:(400, 12)]
+[2024-12-28 11:54:59,494:INFO:main:>>>>>stage Data Transformation Stage completed <<<<<]
+[2024-12-28 11:54:59,494:INFO:main:>>>>>> stage Model Trainer stage started <<<<<<]
+[2024-12-28 11:54:59,494:INFO:common:yaml file: config\config.yaml loaded successfully]
+[2024-12-28 11:54:59,494:INFO:common:yaml file: params.yaml loaded successfully]
+[2024-12-28 11:54:59,499:INFO:common:yaml file: schema.yaml loaded successfully]
+[2024-12-28 11:54:59,501:INFO:common:created directory at: artifacts]
+[2024-12-28 11:54:59,501:INFO:common:created directory at: artifacts/model_trainer]
+[2024-12-28 11:54:59,554:INFO:main:>>>>>> stage Model Trainer stage completed <<<<<<
+
+x==========x]
+[2024-12-28 16:13:12,841:INFO:common:yaml file: config\config.yaml loaded successfully]
+[2024-12-28 16:13:12,891:INFO:common:yaml file: params.yaml loaded successfully]
+[2024-12-28 16:13:12,912:INFO:common:yaml file: schema.yaml loaded successfully]
+[2024-12-28 16:13:12,933:INFO:common:created directory at: artifacts]
+[2024-12-28 16:13:12,936:INFO:common:created directory at: artifacts/model_evaluation]
+[2024-12-28 16:15:20,312:INFO:common:yaml file: config\config.yaml loaded successfully]
+[2024-12-28 16:15:20,316:INFO:common:yaml file: params.yaml loaded successfully]
+[2024-12-28 16:15:20,321:INFO:common:yaml file: schema.yaml loaded successfully]
+[2024-12-28 16:15:20,324:INFO:common:created directory at: artifacts]
+[2024-12-28 16:15:20,326:INFO:common:created directory at: artifacts/model_evaluation]
+[2024-12-28 16:16:13,909:INFO:common:yaml file: config\config.yaml loaded successfully]
+[2024-12-28 16:16:13,911:INFO:common:yaml file: params.yaml loaded successfully]
+[2024-12-28 16:16:13,914:INFO:common:yaml file: schema.yaml loaded successfully]
+[2024-12-28 16:16:13,916:INFO:common:created directory at: artifacts]
+[2024-12-28 16:16:13,917:INFO:common:created directory at: artifacts/model_evaluation]
+[2024-12-28 16:17:12,790:INFO:common:yaml file: config\config.yaml loaded successfully]
+[2024-12-28 16:17:12,793:INFO:common:yaml file: params.yaml loaded successfully]
+[2024-12-28 16:17:12,797:INFO:common:yaml file: schema.yaml loaded successfully]
+[2024-12-28 16:17:12,801:INFO:common:created directory at: artifacts]
+[2024-12-28 16:17:12,804:INFO:common:created directory at: artifacts/model_evaluation]
+[2024-12-28 16:17:15,976:INFO:common:json file saved at: artifacts\model_evaluation\metrics.json]
+[2024-12-28 16:24:07,308:INFO:common:yaml file: config\config.yaml loaded successfully]
+[2024-12-28 16:24:07,336:INFO:common:yaml file: params.yaml loaded successfully]
+[2024-12-28 16:24:07,357:INFO:common:yaml file: schema.yaml loaded successfully]
+[2024-12-28 16:24:07,415:INFO:common:created directory at: artifacts]
+[2024-12-28 16:24:07,422:INFO:common:created directory at: artifacts/model_evaluation]
+[2024-12-28 16:24:08,459:INFO:common:json file saved at: artifacts\model_evaluation\metrics.json]
+[2024-12-28 19:40:55,009:INFO:main:>>>>>stage Data Ingestion Stage started <<<<<]
+[2024-12-28 19:40:55,021:INFO:common:yaml file: config\config.yaml loaded successfully]
+[2024-12-28 19:40:55,037:INFO:common:yaml file: params.yaml loaded successfully]
+[2024-12-28 19:40:55,052:INFO:common:yaml file: schema.yaml loaded successfully]
+[2024-12-28 19:40:55,052:INFO:common:created directory at: artifacts]
+[2024-12-28 19:40:55,052:INFO:common:created directory at: artifacts/data_ingestion]
+[2024-12-28 19:40:55,057:INFO:data_ingestion:File aleady exists]
+[2024-12-28 19:40:55,094:INFO:main:>>>>>stage Data Ingestion Stage completed <<<<<]
+[2024-12-28 19:40:55,094:INFO:main:>>>>>stage Data Validation Stage started <<<<<]
+[2024-12-28 19:40:55,098:INFO:common:yaml file: config\config.yaml loaded successfully]
+[2024-12-28 19:40:55,101:INFO:common:yaml file: params.yaml loaded successfully]
+[2024-12-28 19:40:55,103:INFO:common:yaml file: schema.yaml loaded successfully]
+[2024-12-28 19:40:55,104:INFO:common:created directory at: artifacts]
+[2024-12-28 19:40:55,104:INFO:common:created directory at: artifacts/data_validation]
+[2024-12-28 19:40:55,159:INFO:main:>>>>>stage Data Validation Stage completed <<<<<]
+[2024-12-28 19:40:55,161:INFO:main:>>>>>stage Data Transformation Stage started <<<<<]
+[2024-12-28 19:40:55,175:INFO:common:yaml file: config\config.yaml loaded successfully]
+[2024-12-28 19:40:55,179:INFO:common:yaml file: params.yaml loaded successfully]
+[2024-12-28 19:40:55,181:INFO:common:yaml file: schema.yaml loaded successfully]
+[2024-12-28 19:40:55,183:INFO:common:created directory at: artifacts]
+[2024-12-28 19:40:55,183:INFO:common:created directory at: artifacts/data_transformation]
+[2024-12-28 19:40:55,248:INFO:data_transformation:Splited data into training and test sets]
+[2024-12-28 19:40:55,249:INFO:data_transformation:(1199, 12)]
+[2024-12-28 19:40:55,250:INFO:data_transformation:(400, 12)]
+[2024-12-28 19:40:55,251:INFO:main:>>>>>stage Data Transformation Stage completed <<<<<]
+[2024-12-28 19:40:55,252:INFO:main:>>>>>> stage Model Trainer stage started <<<<<<]
+[2024-12-28 19:40:55,256:INFO:common:yaml file: config\config.yaml loaded successfully]
+[2024-12-28 19:40:55,257:INFO:common:yaml file: params.yaml loaded successfully]
+[2024-12-28 19:40:55,261:INFO:common:yaml file: schema.yaml loaded successfully]
+[2024-12-28 19:40:55,262:INFO:common:created directory at: artifacts]
+[2024-12-28 19:40:55,263:INFO:common:created directory at: artifacts/model_trainer]
+[2024-12-28 19:40:55,345:INFO:main:>>>>>> stage Model Trainer stage completed <<<<<<
+
+x==========x]
+[2024-12-28 19:40:55,346:INFO:main:>>>>>> stage Model Evaluation stage started <<<<<<]
+[2024-12-28 19:40:55,351:INFO:common:yaml file: config\config.yaml loaded successfully]
+[2024-12-28 19:40:55,353:INFO:common:yaml file: params.yaml loaded successfully]
+[2024-12-28 19:40:55,357:INFO:common:yaml file: schema.yaml loaded successfully]
+[2024-12-28 19:40:55,358:INFO:common:created directory at: artifacts]
+[2024-12-28 19:40:55,359:INFO:main:>>>>>> stage Model Evaluation stage completed <<<<<<
+
+x==========x]
+[2024-12-28 19:44:30,284:INFO:main:>>>>>stage Data Ingestion Stage started <<<<<]
+[2024-12-28 19:44:30,284:INFO:common:yaml file: config\config.yaml loaded successfully]
+[2024-12-28 19:44:30,284:INFO:common:yaml file: params.yaml loaded successfully]
+[2024-12-28 19:44:30,284:INFO:common:yaml file: schema.yaml loaded successfully]
+[2024-12-28 19:44:30,299:INFO:common:created directory at: artifacts]
+[2024-12-28 19:44:30,300:INFO:common:created directory at: artifacts/data_ingestion]
+[2024-12-28 19:44:30,300:INFO:data_ingestion:File aleady exists]
+[2024-12-28 19:44:30,310:INFO:main:>>>>>stage Data Ingestion Stage completed <<<<<]
+[2024-12-28 19:44:30,312:INFO:main:>>>>>stage Data Validation Stage started <<<<<]
+[2024-12-28 19:44:30,315:INFO:common:yaml file: config\config.yaml loaded successfully]
+[2024-12-28 19:44:30,316:INFO:common:yaml file: params.yaml loaded successfully]
+[2024-12-28 19:44:30,318:INFO:common:yaml file: schema.yaml loaded successfully]
+[2024-12-28 19:44:30,319:INFO:common:created directory at: artifacts]
+[2024-12-28 19:44:30,319:INFO:common:created directory at: artifacts/data_validation]
+[2024-12-28 19:44:30,353:INFO:main:>>>>>stage Data Validation Stage completed <<<<<]
+[2024-12-28 19:44:30,353:INFO:main:>>>>>stage Data Transformation Stage started <<<<<]
+[2024-12-28 19:44:30,353:INFO:common:yaml file: config\config.yaml loaded successfully]
+[2024-12-28 19:44:30,366:INFO:common:yaml file: params.yaml loaded successfully]
+[2024-12-28 19:44:30,369:INFO:common:yaml file: schema.yaml loaded successfully]
+[2024-12-28 19:44:30,369:INFO:common:created directory at: artifacts]
+[2024-12-28 19:44:30,371:INFO:common:created directory at: artifacts/data_transformation]
+[2024-12-28 19:44:30,411:INFO:data_transformation:Splited data into training and test sets]
+[2024-12-28 19:44:30,411:INFO:data_transformation:(1199, 12)]
+[2024-12-28 19:44:30,412:INFO:data_transformation:(400, 12)]
+[2024-12-28 19:44:30,413:INFO:main:>>>>>stage Data Transformation Stage completed <<<<<]
+[2024-12-28 19:44:30,413:INFO:main:>>>>>> stage Model Trainer stage started <<<<<<]
+[2024-12-28 19:44:30,416:INFO:common:yaml file: config\config.yaml loaded successfully]
+[2024-12-28 19:44:30,417:INFO:common:yaml file: params.yaml loaded successfully]
+[2024-12-28 19:44:30,419:INFO:common:yaml file: schema.yaml loaded successfully]
+[2024-12-28 19:44:30,420:INFO:common:created directory at: artifacts]
+[2024-12-28 19:44:30,421:INFO:common:created directory at: artifacts/model_trainer]
+[2024-12-28 19:44:30,469:INFO:main:>>>>>> stage Model Trainer stage completed <<<<<<
+
+x==========x]
+[2024-12-28 19:44:30,469:INFO:main:>>>>>> stage Model Evaluation stage started <<<<<<]
+[2024-12-28 19:44:30,469:INFO:common:yaml file: config\config.yaml loaded successfully]
+[2024-12-28 19:44:30,469:INFO:common:yaml file: params.yaml loaded successfully]
+[2024-12-28 19:44:30,469:INFO:common:yaml file: schema.yaml loaded successfully]
+[2024-12-28 19:44:30,469:INFO:common:created directory at: artifacts]
+[2024-12-28 19:44:30,469:INFO:main:>>>>>> stage Model Evaluation stage completed <<<<<<
+
+x==========x]
+[2024-12-28 19:57:13,305:INFO:main:>>>>>stage Data Ingestion Stage started <<<<<]
+[2024-12-28 19:57:13,305:INFO:common:yaml file: config\config.yaml loaded successfully]
+[2024-12-28 19:57:13,322:INFO:common:yaml file: params.yaml loaded successfully]
+[2024-12-28 19:57:13,325:INFO:common:yaml file: schema.yaml loaded successfully]
+[2024-12-28 19:57:13,326:INFO:common:created directory at: artifacts]
+[2024-12-28 19:57:13,327:INFO:common:created directory at: artifacts/data_ingestion]
+[2024-12-28 19:57:13,327:INFO:data_ingestion:File aleady exists]
+[2024-12-28 19:57:13,331:INFO:main:>>>>>stage Data Ingestion Stage completed <<<<<]
+[2024-12-28 19:57:13,331:INFO:main:>>>>>stage Data Validation Stage started <<<<<]
+[2024-12-28 19:57:13,338:INFO:common:yaml file: config\config.yaml loaded successfully]
+[2024-12-28 19:57:13,339:INFO:common:yaml file: params.yaml loaded successfully]
+[2024-12-28 19:57:13,339:INFO:common:yaml file: schema.yaml loaded successfully]
+[2024-12-28 19:57:13,339:INFO:common:created directory at: artifacts]
+[2024-12-28 19:57:13,339:INFO:common:created directory at: artifacts/data_validation]
+[2024-12-28 19:57:13,373:INFO:main:>>>>>stage Data Validation Stage completed <<<<<]
+[2024-12-28 19:57:13,373:INFO:main:>>>>>stage Data Transformation Stage started <<<<<]
+[2024-12-28 19:57:13,373:INFO:common:yaml file: config\config.yaml loaded successfully]
+[2024-12-28 19:57:13,388:INFO:common:yaml file: params.yaml loaded successfully]
+[2024-12-28 19:57:13,389:INFO:common:yaml file: schema.yaml loaded successfully]
+[2024-12-28 19:57:13,391:INFO:common:created directory at: artifacts]
+[2024-12-28 19:57:13,392:INFO:common:created directory at: artifacts/data_transformation]
+[2024-12-28 19:57:13,422:INFO:data_transformation:Splited data into training and test sets]
+[2024-12-28 19:57:13,422:INFO:data_transformation:(1199, 12)]
+[2024-12-28 19:57:13,422:INFO:data_transformation:(400, 12)]
+[2024-12-28 19:57:13,422:INFO:main:>>>>>stage Data Transformation Stage completed <<<<<]
+[2024-12-28 19:57:13,422:INFO:main:>>>>>> stage Model Trainer stage started <<<<<<]
+[2024-12-28 19:57:13,422:INFO:common:yaml file: config\config.yaml loaded successfully]
+[2024-12-28 19:57:13,422:INFO:common:yaml file: params.yaml loaded successfully]
+[2024-12-28 19:57:13,435:INFO:common:yaml file: schema.yaml loaded successfully]
+[2024-12-28 19:57:13,436:INFO:common:created directory at: artifacts]
+[2024-12-28 19:57:13,437:INFO:common:created directory at: artifacts/model_trainer]
+[2024-12-28 19:57:13,472:INFO:main:>>>>>> stage Model Trainer stage completed <<<<<<
+
+x==========x]
+[2024-12-28 19:57:13,487:INFO:main:>>>>>> stage Model evaluation stage started <<<<<<]
+[2024-12-28 19:57:13,488:INFO:common:yaml file: config\config.yaml loaded successfully]
+[2024-12-28 19:57:13,491:INFO:common:yaml file: params.yaml loaded successfully]
+[2024-12-28 19:57:13,492:INFO:common:yaml file: schema.yaml loaded successfully]
+[2024-12-28 19:57:13,493:INFO:common:created directory at: artifacts]
+[2024-12-28 19:57:13,495:INFO:common:created directory at: artifacts/model_evaluation]
+[2024-12-28 19:57:18,504:INFO:common:json file saved at: artifacts\model_evaluation\metrics.json]
+[2024-12-28 19:57:29,425:INFO:main:>>>>>> stage Model evaluation stage completed <<<<<<
+
+x==========x]
+[2024-12-28 22:04:38,566:INFO:_internal:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://192.168.234.244:8080]
+[2024-12-28 22:04:38,572:INFO:_internal:[33mPress CTRL+C to quit[0m]
+[2024-12-28 22:05:10,700:INFO:_internal:192.168.234.244 - - [28/Dec/2024 22:05:10] "GET / HTTP/1.1" 200 -]
+[2024-12-28 22:05:11,333:INFO:_internal:192.168.234.244 - - [28/Dec/2024 22:05:11] "[33mGET /static/assets/img/form-v9.jpg HTTP/1.1[0m" 404 -]
+[2024-12-28 22:05:11,453:INFO:_internal:192.168.234.244 - - [28/Dec/2024 22:05:11] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -]
+[2024-12-28 22:06:14,233:INFO:main:>>>>>stage Data Ingestion Stage started <<<<<]
+[2024-12-28 22:06:14,253:INFO:common:yaml file: config\config.yaml loaded successfully]
+[2024-12-28 22:06:14,276:INFO:common:yaml file: params.yaml loaded successfully]
+[2024-12-28 22:06:14,333:INFO:common:yaml file: schema.yaml loaded successfully]
+[2024-12-28 22:06:14,340:INFO:common:created directory at: artifacts]
+[2024-12-28 22:06:14,344:INFO:common:created directory at: artifacts/data_ingestion]
+[2024-12-28 22:06:14,347:INFO:data_ingestion:File aleady exists]
+[2024-12-28 22:06:14,373:INFO:main:>>>>>stage Data Ingestion Stage completed <<<<<]
+[2024-12-28 22:06:14,373:INFO:main:>>>>>stage Data Validation Stage started <<<<<]
+[2024-12-28 22:06:14,383:INFO:common:yaml file: config\config.yaml loaded successfully]
+[2024-12-28 22:06:14,383:INFO:common:yaml file: params.yaml loaded successfully]
+[2024-12-28 22:06:14,383:INFO:common:yaml file: schema.yaml loaded successfully]
+[2024-12-28 22:06:14,388:INFO:common:created directory at: artifacts]
+[2024-12-28 22:06:14,388:INFO:common:created directory at: artifacts/data_validation]
+[2024-12-28 22:06:14,446:INFO:main:>>>>>stage Data Validation Stage completed <<<<<]
+[2024-12-28 22:06:14,446:INFO:main:>>>>>stage Data Transformation Stage started <<<<<]
+[2024-12-28 22:06:14,529:INFO:common:yaml file: config\config.yaml loaded successfully]
+[2024-12-28 22:06:14,529:INFO:common:yaml file: params.yaml loaded successfully]
+[2024-12-28 22:06:14,533:INFO:common:yaml file: schema.yaml loaded successfully]
+[2024-12-28 22:06:14,533:INFO:common:created directory at: artifacts]
+[2024-12-28 22:06:14,533:INFO:common:created directory at: artifacts/data_transformation]
+[2024-12-28 22:06:14,598:INFO:data_transformation:Splited data into training and test sets]
+[2024-12-28 22:06:14,598:INFO:data_transformation:(1199, 12)]
+[2024-12-28 22:06:14,601:INFO:data_transformation:(400, 12)]
+[2024-12-28 22:06:14,606:INFO:main:>>>>>stage Data Transformation Stage completed <<<<<]
+[2024-12-28 22:06:14,606:INFO:main:>>>>>> stage Model Trainer stage started <<<<<<]
+[2024-12-28 22:06:14,613:INFO:common:yaml file: config\config.yaml loaded successfully]
+[2024-12-28 22:06:14,621:INFO:common:yaml file: params.yaml loaded successfully]
+[2024-12-28 22:06:14,645:INFO:common:yaml file: schema.yaml loaded successfully]
+[2024-12-28 22:06:14,645:INFO:common:created directory at: artifacts]
+[2024-12-28 22:06:14,661:INFO:common:created directory at: artifacts/model_trainer]
+[2024-12-28 22:06:14,868:INFO:main:>>>>>> stage Model Trainer stage completed <<<<<<
+
+x==========x]
+[2024-12-28 22:06:14,873:INFO:main:>>>>>> stage Model evaluation stage started <<<<<<]
+[2024-12-28 22:06:14,879:INFO:common:yaml file: config\config.yaml loaded successfully]
+[2024-12-28 22:06:14,883:INFO:common:yaml file: params.yaml loaded successfully]
+[2024-12-28 22:06:14,889:INFO:common:yaml file: schema.yaml loaded successfully]
+[2024-12-28 22:06:14,898:INFO:common:created directory at: artifacts]
+[2024-12-28 22:06:14,906:INFO:common:created directory at: artifacts/model_evaluation]
+[2024-12-28 22:06:24,371:INFO:common:json file saved at: artifacts\model_evaluation\metrics.json]
+[2024-12-28 22:06:55,876:INFO:main:>>>>>> stage Model evaluation stage completed <<<<<<
+
+x==========x]
+[2024-12-28 22:06:57,353:INFO:_internal:192.168.234.244 - - [28/Dec/2024 22:06:57] "GET /train HTTP/1.1" 200 -]
+[2024-12-28 22:07:25,236:INFO:main:>>>>>stage Data Ingestion Stage started <<<<<]
+[2024-12-28 22:07:25,236:INFO:common:yaml file: config\config.yaml loaded successfully]
+[2024-12-28 22:07:25,236:INFO:common:yaml file: params.yaml loaded successfully]
+[2024-12-28 22:07:25,242:INFO:common:yaml file: schema.yaml loaded successfully]
+[2024-12-28 22:07:25,242:INFO:common:created directory at: artifacts]
+[2024-12-28 22:07:25,242:INFO:common:created directory at: artifacts/data_ingestion]
+[2024-12-28 22:07:25,242:INFO:data_ingestion:File aleady exists]
+[2024-12-28 22:07:25,250:INFO:main:>>>>>stage Data Ingestion Stage completed <<<<<]
+[2024-12-28 22:07:25,251:INFO:main:>>>>>stage Data Validation Stage started <<<<<]
+[2024-12-28 22:07:25,254:INFO:common:yaml file: config\config.yaml loaded successfully]
+[2024-12-28 22:07:25,254:INFO:common:yaml file: params.yaml loaded successfully]
+[2024-12-28 22:07:25,259:INFO:common:yaml file: schema.yaml loaded successfully]
+[2024-12-28 22:07:25,259:INFO:common:created directory at: artifacts]
+[2024-12-28 22:07:25,259:INFO:common:created directory at: artifacts/data_validation]
+[2024-12-28 22:07:25,355:INFO:main:>>>>>stage Data Validation Stage completed <<<<<]
+[2024-12-28 22:07:25,355:INFO:main:>>>>>stage Data Transformation Stage started <<<<<]
+[2024-12-28 22:07:25,361:INFO:common:yaml file: config\config.yaml loaded successfully]
+[2024-12-28 22:07:25,363:INFO:common:yaml file: params.yaml loaded successfully]
+[2024-12-28 22:07:25,363:INFO:common:yaml file: schema.yaml loaded successfully]
+[2024-12-28 22:07:25,363:INFO:common:created directory at: artifacts]
+[2024-12-28 22:07:25,363:INFO:common:created directory at: artifacts/data_transformation]
+[2024-12-28 22:07:25,394:INFO:data_transformation:Splited data into training and test sets]
+[2024-12-28 22:07:25,394:INFO:data_transformation:(1199, 12)]
+[2024-12-28 22:07:25,394:INFO:data_transformation:(400, 12)]
+[2024-12-28 22:07:25,394:INFO:main:>>>>>stage Data Transformation Stage completed <<<<<]
+[2024-12-28 22:07:25,394:INFO:main:>>>>>> stage Model Trainer stage started <<<<<<]
+[2024-12-28 22:07:25,394:INFO:common:yaml file: config\config.yaml loaded successfully]
+[2024-12-28 22:07:25,394:INFO:common:yaml file: params.yaml loaded successfully]
+[2024-12-28 22:07:25,394:INFO:common:yaml file: schema.yaml loaded successfully]
+[2024-12-28 22:07:25,394:INFO:common:created directory at: artifacts]
+[2024-12-28 22:07:25,394:INFO:common:created directory at: artifacts/model_trainer]
+[2024-12-28 22:07:25,513:INFO:main:>>>>>> stage Model Trainer stage completed <<<<<<
+
+x==========x]
+[2024-12-28 22:07:25,513:INFO:main:>>>>>> stage Model evaluation stage started <<<<<<]
+[2024-12-28 22:07:25,519:INFO:common:yaml file: config\config.yaml loaded successfully]
+[2024-12-28 22:07:25,519:INFO:common:yaml file: params.yaml loaded successfully]
+[2024-12-28 22:07:25,519:INFO:common:yaml file: schema.yaml loaded successfully]
+[2024-12-28 22:07:25,519:INFO:common:created directory at: artifacts]
+[2024-12-28 22:07:25,519:INFO:common:created directory at: artifacts/model_evaluation]
+[2024-12-28 22:07:27,406:INFO:common:json file saved at: artifacts\model_evaluation\metrics.json]
+[2024-12-28 22:07:40,713:INFO:main:>>>>>> stage Model evaluation stage completed <<<<<<
+
+x==========x]
+[2024-12-28 22:07:41,580:INFO:_internal:192.168.234.244 - - [28/Dec/2024 22:07:41] "GET /train HTTP/1.1" 200 -]
+[2024-12-28 22:10:05,973:INFO:_internal:192.168.234.244 - - [28/Dec/2024 22:10:05] "[33mGET /train/predict HTTP/1.1[0m" 404 -]
+[2025-01-06 11:51:51,437:INFO:_internal:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://192.168.104.2:8080]
+[2025-01-06 11:51:51,437:INFO:_internal:[33mPress CTRL+C to quit[0m]
+[2025-01-06 11:52:00,277:INFO:_internal:127.0.0.1 - - [06/Jan/2025 11:52:00] "GET / HTTP/1.1" 200 -]
+[2025-01-06 11:52:00,758:INFO:_internal:127.0.0.1 - - [06/Jan/2025 11:52:00] "[33mGET /static/assets/img/form-v9.jpg HTTP/1.1[0m" 404 -]
+[2025-01-06 11:52:00,827:INFO:_internal:127.0.0.1 - - [06/Jan/2025 11:52:00] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -]
+[2025-01-06 11:53:17,821:INFO:_internal:127.0.0.1 - - [06/Jan/2025 11:53:17] "POST /predict HTTP/1.1" 200 -]
+[2025-01-06 11:53:17,867:INFO:_internal:127.0.0.1 - - [06/Jan/2025 11:53:17] "POST /predict HTTP/1.1" 200 -]
+[2025-01-06 11:57:53,224:INFO:_internal:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://192.168.104.2:8080]
+[2025-01-06 11:57:53,224:INFO:_internal:[33mPress CTRL+C to quit[0m]
+[2025-01-06 11:58:07,123:INFO:_internal:127.0.0.1 - - [06/Jan/2025 11:58:07] "GET / HTTP/1.1" 200 -]
+[2025-01-06 11:58:07,516:INFO:_internal:127.0.0.1 - - [06/Jan/2025 11:58:07] "[33mGET /static/assets/img/form-v9.jpg HTTP/1.1[0m" 404 -]
+[2025-01-06 11:58:07,575:INFO:_internal:127.0.0.1 - - [06/Jan/2025 11:58:07] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -]
+[2025-01-06 11:58:55,102:INFO:_internal:127.0.0.1 - - [06/Jan/2025 11:58:55] "POST /predict HTTP/1.1" 200 -]

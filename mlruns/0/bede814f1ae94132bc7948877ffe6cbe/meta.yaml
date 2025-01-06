@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/End/Datascience/mlruns/0/bede814f1ae94132bc7948877ffe6cbe/artifacts
+end_time: 1735403815868
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: bede814f1ae94132bc7948877ffe6cbe
+run_name: delicate-grub-217
+run_uuid: bede814f1ae94132bc7948877ffe6cbe
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1735403784174
+status: 3
+tags: []
+user_id: verseelia
